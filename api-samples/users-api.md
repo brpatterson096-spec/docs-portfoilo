@@ -44,3 +44,34 @@ GET /v1/users/10
 |------|------|
 | 401 | Unauthorized |
 | 404 | User not found |
+## List Users
+
+GET /users
+
+Returns a list of users.
+
+### Example Request
+
+GET /v1/users
+
+### Example Response
+
+[
+  {
+    "id": 10,
+    "name": "Jane Smith",
+    "email": "jane@example.com"
+  },
+  {
+    "id": 11,
+    "name": "Alex Johnson",
+    "email": "alex@example.com"
+  }
+]
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 401 | Unauthorized |
+| 500 | Server error |

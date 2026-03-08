@@ -75,3 +75,39 @@ GET /v1/users
 |------|------|
 | 401 | Unauthorized |
 | 500 | Server error |
+## Create User
+
+POST /users
+
+Creates a new user.
+
+### Request Body
+
+| Field | Type | Required | Description |
+|------|------|------|------|
+| name | string | yes | User's full name |
+| email | string | yes | User's email address |
+
+### Example Request
+
+POST /v1/users
+
+{
+  "name": "Chris Miller",
+  "email": "chris@example.com"
+}
+
+### Example Response
+
+{
+  "id": 12,
+  "name": "Chris Miller",
+  "email": "chris@example.com"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 400 | Invalid request |
+| 401 | Unauthorized |

@@ -1,4 +1,13 @@
 # Users API
+## Table of Contents
+
+- [Base URL](#base-url)
+- [Authentication](#authentication)
+- [Get User](#get-user)
+- [List Users](#list-users)
+- [Create User](#create-user)
+- [Update User](#update-user)
+- [Delete User](#delete-user)
 
 This document describes how to retrieve user information from the Users API.
 

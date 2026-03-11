@@ -138,3 +138,46 @@ DELETE /v1/users/12
 |------|------|
 | 400 | Invalid request |
 | 401 | Unauthorized |
+## Update User
+
+PUT /users/{id}
+
+Updates an existing user.
+
+### Path Parameters
+
+| Name | Type | Required | Description |
+|-----|-----|-----|-----|
+| id | integer | yes | The ID of the user to update |
+
+### Request Body
+
+| Field | Type | Required | Description |
+|------|------|------|------|
+| name | string | no | Updated user name |
+| email | string | no | Updated email address |
+
+### Example Request
+
+PUT /v1/users/12
+
+{
+  "name": "Chris Miller",
+  "email": "chris.miller@example.com"
+}
+
+### Example Response
+
+{
+  "id": 12,
+  "name": "Chris Miller",
+  "email": "chris.miller@example.com"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 400 | Invalid request |
+| 401 | Unauthorized |
+| 404 | User not found |

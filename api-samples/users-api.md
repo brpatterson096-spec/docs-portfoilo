@@ -104,7 +104,34 @@ POST /v1/users
   "name": "Chris Miller",
   "email": "chris@example.com"
 }
+## Delete User
 
+DELETE /users/{id}
+
+Deletes a user by ID.
+
+### Path Parameters
+
+| Name | Type | Required | Description |
+|-----|-----|-----|-----|
+| id | integer | yes | The ID of the user to delete |
+
+### Example Request
+
+DELETE /v1/users/12
+
+### Example Response
+
+{
+  "message": "User deleted successfully"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 401 | Unauthorized |
+| 404 | User not found |
 ### Errors
 
 | Status | Meaning |

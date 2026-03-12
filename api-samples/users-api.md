@@ -190,3 +190,26 @@ PUT /v1/users/12
 | 400 | Invalid request |
 | 401 | Unauthorized |
 | 404 | User not found |
+## Logout
+
+POST /auth/logout
+
+Logs out the currently authenticated user.
+
+### Example Request
+
+POST /v1/auth/logout
+
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+### Example Response
+
+{
+  "message": "Successfully logged out"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 401 | Unauthorized |

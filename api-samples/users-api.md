@@ -17,6 +17,13 @@ https://api.example.com/v1
 
 ## Authentication
 
+## Table of Contents
+
+- [Base URL](#base-url)
+- [Login](#login)
+- [Logout](#logout)
+- [Register](#register)
+
 All requests require a bearer token.
 
 Example header:

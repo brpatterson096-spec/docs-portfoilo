@@ -12,7 +12,15 @@
 This document describes how to retrieve user information from the Users API.
 
 ## Base URL
+## Authentication
 
+All requests to the Users API require authentication.
+
+Include a bearer token in the Authorization header.
+
+Example:
+
+Authorization: Bearer YOUR_ACCESS_TOKEN
 https://api.example.com/v1
 
 ## Authentication

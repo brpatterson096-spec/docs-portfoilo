@@ -213,3 +213,41 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 | Status | Meaning |
 |------|------|
 | 401 | Unauthorized |
+## Register
+
+POST /auth/register
+
+Creates a new user account.
+
+### Request Body
+
+| Field | Type | Required | Description |
+|------|------|------|------|
+| name | string | yes | User's full name |
+| email | string | yes | User email |
+| password | string | yes | User password |
+
+### Example Request
+
+POST /v1/auth/register
+
+{
+  "name": "Taylor Brown",
+  "email": "taylor@example.com",
+  "password": "securepassword"
+}
+
+### Example Response
+
+{
+  "id": 21,
+  "name": "Taylor Brown",
+  "email": "taylor@example.com"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 400 | Invalid request |
+| 409 | Email already exists |

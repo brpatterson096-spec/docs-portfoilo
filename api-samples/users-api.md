@@ -266,3 +266,13 @@ POST /v1/auth/register
 |------|------|
 | 400 | Invalid request |
 | 409 | Email already exists |
+## Common Errors
+
+The API may return the following error responses.
+
+| Status Code | Meaning | Description |
+|-------------|--------|-------------|
+| 400 | Bad Request | The request was invalid or missing parameters |
+| 401 | Unauthorized | Authentication token is missing or invalid |
+| 404 | Not Found | The requested resource could not be found |
+| 500 | Server Error | An unexpected error occurred on the server |

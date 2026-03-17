@@ -72,3 +72,39 @@ GET /v1/products
 |------|------|
 | 401 | Unauthorized |
 | 404 | Product not found |
+## Create Product
+
+POST /products
+
+Creates a new product.
+
+### Request Body
+
+| Field | Type | Required | Description |
+|------|------|------|------|
+| name | string | yes | Product name |
+| price | number | yes | Product price |
+
+### Example Request
+
+POST /v1/products
+
+{
+  "name": "Gaming Headset",
+  "price": 59.99
+}
+
+### Example Response
+
+{
+  "id": 102,
+  "name": "Gaming Headset",
+  "price": 59.99
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 400 | Invalid request |
+| 401 | Unauthorized |

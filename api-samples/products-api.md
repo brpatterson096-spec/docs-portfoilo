@@ -1,4 +1,11 @@
 # Products API
+## Table of Contents
+
+- [Base URL](#base-url)
+- [Authentication](#authentication)
+- [Get Product](#get-product)
+- [List Products](#list-products)
+- [Create Product](#create-product)
 
 This document describes how to retrieve product information.
 

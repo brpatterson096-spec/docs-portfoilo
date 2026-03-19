@@ -12,6 +12,7 @@
 This document describes how to retrieve user information from the Users API.
 
 ## Base URL
+
 ## Authentication
 
 All requests to the Users API require authentication.

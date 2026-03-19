@@ -17,3 +17,4 @@ This repository contains documentation samples focused on developer guides and A
 - [CLI Usage Guide](quickstart/cli-usage-guide.md)
 - [Users API](api-samples/users-api.md)
 - [Products API](api-samples/products-api.md)
+- [Style Guide](style-guide.md)

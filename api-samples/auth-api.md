@@ -25,7 +25,7 @@ Authenticates a user and returns an access token.
 | password | string | yes | User password |
 
 ### Example Request
-
+```http
 POST /v1/auth/login
 
 {
@@ -34,7 +34,7 @@ POST /v1/auth/login
 }
 
 ### Example Response
-
+```json
 {
   "access_token": "abc123token",
   "token_type": "Bearer"
@@ -46,13 +46,13 @@ POST /auth/logout
 Logs out the currently authenticated user.
 
 ### Example Request
-
+```http
 POST /v1/auth/logout
 
 Authorization: Bearer YOUR_ACCESS_TOKEN
 
 ### Example Response
-
+```json
 {
   "message": "Successfully logged out"
 }
@@ -82,7 +82,7 @@ Creates a new user account.
 | password | string | yes | User password |
 
 ### Example Request
-
+```http
 POST /v1/auth/register
 
 {
@@ -92,7 +92,7 @@ POST /v1/auth/register
 }
 
 ### Example Response
-
+```json
 {
   "id": 21,
   "name": "Taylor Brown",

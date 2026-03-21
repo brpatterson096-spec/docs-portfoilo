@@ -1,5 +1,10 @@
 # Authentication API
+## Table of Contents
 
+- [Base URL](#base-url)
+- [Login](#login)
+- [Logout](#logout)
+- [Register](#register)
 This document describes how users authenticate with the API.
 
 ## Base URL

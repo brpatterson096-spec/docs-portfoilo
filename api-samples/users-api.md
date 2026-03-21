@@ -52,11 +52,11 @@ Returns a user by ID.
 | id | integer | yes | Unique user ID |
 
 ### Example Request
-
+```http
 GET /v1/users/10
 
 ### Example Response
-
+```json
 {
   "id": 10,
   "name": "Jane Smith",
@@ -76,11 +76,11 @@ GET /users
 Returns a list of users.
 
 ### Example Request
-
+```http
 GET /v1/users
 
 ### Example Response
-
+```json
 [
   {
     "id": 10,
@@ -114,7 +114,7 @@ Creates a new user.
 | email | string | yes | User's email address |
 
 ### Example Request
-
+```http
 POST /v1/users
 
 {
@@ -123,7 +123,7 @@ POST /v1/users
 }
 
 ### Example Response
-
+```json
 {
   "id": 12,
   "name": "Chris Miller",
@@ -142,11 +142,11 @@ Deletes a user by ID.
 | id | integer | yes | The ID of the user to delete |
 
 ### Example Request
-
+```http
 DELETE /v1/users/12
 
 ### Example Response
-
+```json
 {
   "message": "User deleted successfully"
 }
@@ -183,7 +183,7 @@ Updates an existing user.
 | email | string | no | Updated email address |
 
 ### Example Request
-
+```http
 PUT /v1/users/12
 
 {
@@ -192,7 +192,7 @@ PUT /v1/users/12
 }
 
 ### Example Response
-
+```json
 {
   "id": 12,
   "name": "Chris Miller",
@@ -219,7 +219,7 @@ POST /v1/auth/logout
 Authorization: Bearer YOUR_ACCESS_TOKEN
 
 ### Example Response
-
+```json
 {
   "message": "Successfully logged out"
 }
@@ -254,7 +254,7 @@ POST /v1/auth/register
 }
 
 ### Example Response
-
+```json
 {
   "id": 21,
   "name": "Taylor Brown",

@@ -34,7 +34,29 @@ POST /v1/auth/login
   "access_token": "abc123token",
   "token_type": "Bearer"
 }
+## Logout
 
+POST /auth/logout
+
+Logs out the currently authenticated user.
+
+### Example Request
+
+POST /v1/auth/logout
+
+Authorization: Bearer YOUR_ACCESS_TOKEN
+
+### Example Response
+
+{
+  "message": "Successfully logged out"
+}
+
+### Errors
+
+| Status | Meaning |
+|------|------|
+| 401 | Unauthorized |
 ### Errors
 
 | Status | Meaning |

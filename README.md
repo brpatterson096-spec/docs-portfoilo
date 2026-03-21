@@ -19,3 +19,4 @@ This repository contains documentation samples focused on developer guides and A
 - [Products API](api-samples/products-api.md)
 - [Style Guide](style-guide.md)
 - [How to Use This Documentation](how-to-use-docs.md)
+- [Authentication API](api-samples/auth-api.md)

@@ -8,7 +8,13 @@
 This document describes how users authenticate with the API.
 
 ## Base URL
+## Prerequisites
 
+Before using this API, ensure you have:
+
+- An API access token
+- A tool to make HTTP requests (e.g., curl or Postman)
+- Basic understanding of REST APIs
 https://api.example.com/v1
 
 ## Login

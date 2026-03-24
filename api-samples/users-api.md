@@ -12,7 +12,13 @@
 This document describes how to retrieve user information from the Users API.
 
 ## Base URL
+## Prerequisites
 
+Before using this API, ensure you have:
+
+- An API access token
+- A tool to make HTTP requests (e.g., curl or Postman)
+- Basic understanding of REST APIs
 ## Authentication
 
 All requests to the Users API require authentication.

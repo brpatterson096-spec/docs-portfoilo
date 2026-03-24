@@ -32,11 +32,11 @@ Returns a product by ID.
 | id | integer | yes | Unique product ID |
 
 ### Example Request
-
+```http
 GET /v1/products/100
 
 ### Example Response
-
+```json
 {
   "id": 100,
   "name": "Wireless Mouse",
@@ -49,11 +49,11 @@ GET /products
 Returns a list of products.
 
 ### Example Request
-
+```http
 GET /v1/products
 
 ### Example Response
-
+```json
 [
   {
     "id": 100,
@@ -93,7 +93,7 @@ Creates a new product.
 | price | number | yes | Product price |
 
 ### Example Request
-
+```http
 POST /v1/products
 
 {
@@ -102,7 +102,7 @@ POST /v1/products
 }
 
 ### Example Response
-
+```json
 {
   "id": 102,
   "name": "Gaming Headset",

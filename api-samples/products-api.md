@@ -23,7 +23,7 @@ Authorization: Bearer YOUR_ACCESS_TOKEN
 
 GET /products/{id}
 
-Returns a product by ID.
+Returns a single product based on the provided ID.
 
 ### Path Parameters
 

@@ -107,7 +107,8 @@ POST /v1/auth/register
 
 ### Errors
 
-| Status | Meaning |
-|------|------|
-| 400 | Invalid request |
-| 409 | Email already exists |
+| Status Code | Meaning | Description |
+|-------------|--------|-------------|
+| 400 | Bad Request | The request was invalid or missing required fields |
+| 401 | Unauthorized | Authentication credentials are missing or invalid |
+| 500 | Server Error | An unexpected error occurred on the server |

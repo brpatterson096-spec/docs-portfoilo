@@ -117,7 +117,8 @@ POST /v1/products
 
 ### Errors
 
-| Status | Meaning |
-|------|------|
-| 400 | Invalid request |
-| 401 | Unauthorized |
+| Status Code | Meaning | Description |
+|-------------|--------|-------------|
+| 400 | Bad Request | The request was invalid or missing required fields |
+| 401 | Unauthorized | Authentication credentials are missing or invalid |
+| 500 | Server Error | An unexpected error occurred on the server |

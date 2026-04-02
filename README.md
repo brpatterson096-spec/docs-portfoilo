@@ -20,7 +20,7 @@ This repository contains documentation samples focused on developer guides and A
 - [Style Guide](style-guide.md)
 - [How to Use This Documentation](how-to-use-docs.md)
 - [Authentication API](api-samples/auth-api.md)
-
+- [Portfolio Page](portfolio.md)
 ## Portfolio Summary
 
 This portfolio demonstrates technical writing skills in:

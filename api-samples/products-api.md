@@ -38,6 +38,8 @@ Returns a single product based on the provided ID.
 | id | integer | yes | Unique product ID |
 
 ### Example Request
+curl -X GET "https://api.example.com/v1/products/100" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
 ```http
 GET /v1/products/100
 
@@ -99,6 +101,10 @@ Creates a new product.
 | price | number | yes | Product price |
 
 ### Example Request
+curl -X POST "https://api.example.com/v1/products" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Gaming Headset", "price": 59.99}'
 ```http
 POST /v1/products
 

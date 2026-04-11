@@ -31,6 +31,9 @@ Authenticates a user and returns an access token.
 | password | string | yes | User password |
 
 ### Example Request
+curl -X POST "https://api.example.com/v1/auth/login" \
+  -H "Content-Type: application/json" \
+  -d '{"email": "user@example.com", "password": "securepassword"}'
 ```http
 POST /v1/auth/login
 
@@ -52,6 +55,8 @@ POST /auth/logout
 Logs out the currently authenticated user.
 
 ### Example Request
+curl -X POST "https://api.example.com/v1/auth/logout" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
 ```http
 POST /v1/auth/logout
 

@@ -58,6 +58,8 @@ Returns a user by ID.
 | id | integer | yes | Unique user ID |
 
 ### Example Request
+curl -X GET "https://api.example.com/v1/users/10" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN"
 ```http
 GET /v1/users/10
 
@@ -120,6 +122,10 @@ Creates a new user.
 | email | string | yes | User's email address |
 
 ### Example Request
+curl -X POST "https://api.example.com/v1/users" \
+  -H "Authorization: Bearer YOUR_ACCESS_TOKEN" \
+  -H "Content-Type: application/json" \
+  -d '{"name": "Chris Miller", "email": "chris@example.com"}'
 ```http
 POST /v1/users
 

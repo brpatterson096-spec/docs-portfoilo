@@ -37,3 +37,18 @@ The documentation includes:
 - Clear structure and navigation across all documents
 
 This work reflects the ability to create professional, structured, and user-focused technical documentation.
+# Technical Writing Portfolio
+
+Hi, I’m a technical writer focused on developer documentation and API documentation.
+
+## Skills
+- Developer documentation
+- API documentation
+- Markdown
+- GitHub
+
+## Portfolio
+- Developer Documentation Portfolio (see pinned repository)
+
+## Focus
+Building clear, structured, and user-friendly technical documentation.

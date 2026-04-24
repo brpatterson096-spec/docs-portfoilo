@@ -52,3 +52,4 @@ Hi, I’m a technical writer focused on developer documentation and API document
 
 ## Focus
 Building clear, structured, and user-friendly technical documentation.
+- [Improved README Sample](real-world/improved-readme.md)

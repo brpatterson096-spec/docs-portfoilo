@@ -51,3 +51,8 @@ See [`LICENSE`](./LICENSE).
 [goreportcard_link]: https://goreportcard.com/report/github.com/urfave/cli/v3
 [codecov_badge]: https://codecov.io/gh/urfave/cli/branch/main/graph/badge.svg?token=t9YGWLh05g
 [codecov_link]: https://codecov.io/gh/urfave/cli
+## Attribution
+
+This document is based on an existing open-source project README.
+
+It has been rewritten and improved for clarity, structure, and usability as part of a technical writing portfolio.

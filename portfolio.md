@@ -31,3 +31,8 @@ This portfolio demonstrates skills in developer documentation and API documentat
 ## Contact
 
 Available for technical writing opportunities.
+## Contact
+
+For technical writing opportunities, please reach out via:
+
+- GitHub: https://github.com/brpatterson096-spec

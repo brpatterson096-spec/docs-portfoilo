@@ -12,6 +12,6 @@ I’ve created a portfolio demonstrating:
 I’d be happy to help improve your documentation or write new documentation for your project.
 
 Portfolio:
-[Add your GitHub portfolio link here]
+(https://github.com/brpatterson096-spec/docs-portfoilo)
 
 Thank you for your time.

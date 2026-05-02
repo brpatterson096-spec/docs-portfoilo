@@ -36,3 +36,12 @@ Available for technical writing opportunities.
 For technical writing opportunities, please reach out via:
 
 - GitHub: https://github.com/brpatterson096-spec
+## Work Availability
+
+Available for:
+
+- Technical writing projects
+- Developer documentation
+- API documentation
+
+Open to freelance and entry-level opportunities.
